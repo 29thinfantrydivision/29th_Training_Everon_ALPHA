@@ -1,0 +1,427 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 6120.51 157.665 6281.017
+ "Map Geometry Data" "{984B832A2B86D79B}worlds/Eden/Eden.topo"
+ "Satellite background image" "{6EB44A780AF7DDDF}UI/Textures/Map/worlds/EveronRasterized.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6986F8D6116E1B29}" {
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{C35ECF3276824654}worlds/GameMaster/Navmeshes/GM_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 6120.51 157.587 6280.017
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6120.51 157.494 6279.017
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ components {
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_aGroupFlags {
+   }
+   m_bAllowGroupLeaderVolunteering 1
+   m_iFreeGroupAmountBeforeRestriction 999
+  }
+ }
+ coords 6120.51 157.4 6278.017
+ m_fAutoReloadTime -1
+ {
+  SCR_FactionManager "6986F8CC3025E697" {
+   ID "56E685E92F1B7E7A"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+        m_sCallsign "Able"
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "Baker"
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+        m_sCallsign "Charlie"
+       }
+       SCR_CallsignInfo "{55CCB792CCB4D441}" {
+        m_sCallsign "Dog"
+       }
+       SCR_CallsignInfo "{55CCB792CC5F08F3}" {
+        m_sCallsign "Easy"
+       }
+       SCR_CallsignInfo "{55CCB792CC49B7DB}" {
+        m_sCallsign "Fox"
+       }
+       SCR_CallsignInfo "{55CCB792CC711A37}" {
+        m_sCallsign "Golf"
+       }
+       SCR_CallsignInfo "{55CCB792CC33211C}" {
+        m_sCallsign "Hotel"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "4"
+       }
+      }
+     }
+     m_aGroupRolePresetConfigs {
+      SCR_GroupRolePresetConfig "{6986F8E3ACD06CDF}" {
+       m_sGroupName "RIFLE SQUAD"
+       m_eGroupRole ASSAULT
+       m_bIsPrivacyChangeable 0
+       m_sGroupRoleName "RIFLE SQUAD"
+       m_aLoadoutResources {
+        "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et"
+        "{EA158B6EB6A24B4B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1.et"
+        "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+        "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+        "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et"
+        "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO.et"
+       }
+      }
+      SCR_GroupRolePresetConfig "{6986F8E3585D5D93}" {
+       m_sGroupName "HEADQUARTERS"
+       m_eGroupRole COMMANDER
+       m_sGroupDescription "HEADQUARTERS"
+       m_bIsPrivacyChangeable 0
+       m_aLoadoutResources {
+        "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et"
+        "{E94CD0D20A63909E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO.et"
+        "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et"
+        "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+        "{4FBA24F7BB43E17D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant.et"
+       }
+      }
+      SCR_GroupRolePresetConfig "{6986F8E024523B97}" {
+       m_sGroupName "TANK CREW"
+       m_eGroupRole MECHANIZED
+       m_sGroupDescription "TANK CREW"
+       m_iGroupSize 3
+       m_bIsPrivacyChangeable 0
+       m_aLoadoutResources {
+        "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
+        "{F35F145D4A3F75EF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CC.et"
+       }
+      }
+      SCR_GroupRolePresetConfig "{6986F8E1FFAED6C3}" {
+       m_sGroupName "HELI CREW"
+       m_eGroupRole HELI_TRANSPORT
+       m_sGroupDescription "HELI CREW"
+       m_iGroupSize 3
+       m_bIsPrivacyChangeable 0
+       m_aLoadoutResources {
+        "{42A502E3BB727CEB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot.et"
+        "{15CD521098748195}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew.et"
+       }
+      }
+     }
+     m_aPredefinedGroups {
+      SCR_GroupPreset "{6986F8E63F458F0B}" {
+       m_sGroupName "HEADQUARTERS"
+       m_eGroupRole COMMANDER
+       m_sGroupDescription "HEADQUARTERS"
+       m_iGroupSize 5
+      }
+      SCR_GroupPreset "{6986F8E1B957713A}" {
+       m_sGroupName "RIFLE SQUAD"
+       m_eGroupRole ASSAULT
+       m_sGroupDescription "RIFLE SQUAD"
+       m_bIsPrivacyChangeable 0
+      }
+      SCR_GroupPreset "{6986F8E6161992BA}" {
+       m_sGroupName "TANK CERW"
+       m_eGroupRole MECHANIZED
+       m_sGroupDescription "TANK CERW"
+      }
+      SCR_GroupPreset "{6986F8E7E2BC60B9}" {
+       m_sGroupName "HELI CREW"
+       m_eGroupRole HELI_TRANSPORT
+       m_sGroupDescription "HELI CREW"
+       m_iGroupSize 3
+      }
+     }
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_aGroupRolePresetConfigs {
+      SCR_GroupRolePresetConfig "{6986F8ED1C487FB3}" {
+       m_sGroupName "RIFLE SQUAD"
+       m_eGroupRole ASSAULT
+       m_sGroupDescription "RIFLE SQUAD"
+       m_bIsPrivacyChangeable 0
+       m_aLoadoutResources {
+        "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+        "{BF643BE4ADBDFDD3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_LAT.et"
+        "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et"
+        "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et"
+        "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO.et"
+       }
+      }
+      SCR_GroupRolePresetConfig "{6986F89280EC1EF6}" {
+       m_sGroupName "HEADQUARTERS"
+       m_eGroupRole COMMANDER
+       m_sGroupDescription "HEADQUARTERS"
+       m_iGroupSize 5
+       m_bIsPrivacyChangeable 0
+       m_aLoadoutResources {
+        "{0DC67B4DFFD7A361}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout_RTO.et"
+        "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.et"
+        "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter.et"
+        "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et"
+       }
+      }
+      SCR_GroupRolePresetConfig "{6986F8922297262D}" {
+       m_sGroupName "TANK CREW"
+       m_eGroupRole MECHANIZED
+       m_sGroupDescription "TANK CREW"
+       m_iGroupSize 3
+       m_aLoadoutResources {
+        "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+        "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+       }
+      }
+      SCR_GroupRolePresetConfig "{6986F89217879882}" {
+       m_sGroupName "HELI CREW"
+       m_eGroupRole HELI_TRANSPORT
+       m_sGroupDescription "HELI CREW"
+       m_iGroupSize 3
+       m_aLoadoutResources {
+        "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et"
+        "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew.et"
+       }
+      }
+     }
+     m_aPredefinedGroups {
+      SCR_GroupPreset "{6986F893F2543917}" {
+       m_sGroupName "RIFLE SQUAD"
+       m_eGroupRole ASSAULT
+       m_sGroupDescription "RIFLE SQUAD"
+       m_bIsPrivacyChangeable 0
+      }
+      SCR_GroupPreset "{6986F893CE98328C}" {
+       m_sGroupName "HEADQUARTERS"
+       m_eGroupRole COMMANDER
+       m_sGroupDescription "HEADQUARTERS"
+       m_iGroupSize 5
+       m_bIsPrivacyChangeable 0
+      }
+      SCR_GroupPreset "{6986F893D17A1A46}" {
+       m_sGroupName "TANK CREW"
+       m_eGroupRole MECHANIZED
+       m_sGroupDescription "TANK CREW"
+       m_iGroupSize 3
+       m_bIsPrivacyChangeable 0
+      }
+      SCR_GroupPreset "{6986F893A6A35DA1}" {
+       m_sGroupName "HELI CREW"
+       m_eGroupRole HELI_TRANSPORT
+       m_sGroupDescription "HELI CREW"
+       m_iGroupSize 3
+       m_bIsPrivacyChangeable 0
+      }
+     }
+    }
+   }
+   m_DefaultRanks SCR_RankContainer "{68E0F3F7DB40E447}" {
+    m_aRanks {
+     SCR_RankInfoCampaign "{68DA9114C2FF6FEB}" {
+      m_iRequiredXP 0
+     }
+    }
+   }
+  }
+  SCR_LoadoutManager {
+   ID "56E685E92F1B7E2A"
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{5596D845DBEEF78C}" {
+     m_sLoadoutName "29th Parade Uniform"
+     m_sLoadoutResource "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et"
+    }
+    SCR_FactionPlayerLoadout "{6986F8FE2C4C5338}" {
+     m_sLoadoutName "Rifleman"
+     m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8FE31257AD9}" {
+     m_sLoadoutName "Riflemanv1"
+     m_sLoadoutResource "{EA158B6EB6A24B4B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8FFC353789C}" {
+     m_sLoadoutName "Squad Leadership"
+     m_sLoadoutResource "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8EABAFA4339}" {
+     m_sLoadoutName "Platoon Leader"
+     m_sLoadoutResource "{E94CD0D20A63909E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E7B965AB63}" {
+     m_sLoadoutName "Grenadier"
+     m_sLoadoutResource "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E77C0C51DD}" {
+     m_sLoadoutName "Combat Engineer"
+     m_sLoadoutResource "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8EA86CE0613}" {
+     m_sLoadoutName "Machine Gunner"
+     m_sLoadoutResource "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E742D3FC28}" {
+     m_sLoadoutName "Medic"
+     m_sLoadoutResource "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E7531143C9}" {
+     m_sLoadoutName "Sniper"
+     m_sLoadoutResource "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E73853E70A}" {
+     m_sLoadoutName "Tanker"
+     m_sLoadoutResource "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E70DD8B1E8}" {
+     m_sLoadoutName "Tankerv1"
+     m_sLoadoutResource "{F35F145D4A3F75EF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CC.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E4EEEF6869}" {
+     m_sLoadoutName "Heli Pilot"
+     m_sLoadoutResource "{42A502E3BB727CEB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8E4F107544A}" {
+     m_sLoadoutName "HeliCrew"
+     m_sLoadoutResource "{15CD521098748195}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F8EB174BEF5F}" {
+     m_sLoadoutName "Plt. Sergeant"
+     m_sLoadoutResource "{4FBA24F7BB43E17D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6986F89378199ECB}" {
+     m_sLoadoutName "Rifleman"
+     m_sLoadoutResource "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F8934EA9B0DE}" {
+     m_sLoadoutName "Plt. Leader"
+     m_sLoadoutResource "{0DC67B4DFFD7A361}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout_RTO.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F8935CDC129A}" {
+     m_sLoadoutName "Plt. Sergeant"
+     m_sLoadoutResource "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F89326304E30}" {
+     m_sLoadoutName "Grenadier"
+     m_sLoadoutResource "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F893334ABE7F}" {
+     m_sLoadoutName "Combat Engineer"
+     m_sLoadoutResource "{BF643BE4ADBDFDD3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_LAT.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F8930F13FF9C}" {
+     m_sLoadoutName "Machine Gunner"
+     m_sLoadoutResource "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F89312ABFC83}" {
+     m_sLoadoutName "Medic"
+     m_sLoadoutResource "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F890EA5E2F6F}" {
+     m_sLoadoutName "Sniper"
+     m_sLoadoutResource "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F890E4647B1A}" {
+     m_sLoadoutName "Squad Leader"
+     m_sLoadoutResource "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F890F0CCB6F8}" {
+     m_sLoadoutName "Tanker"
+     m_sLoadoutResource "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F890C995D697}" {
+     m_sLoadoutName "Tankerv1"
+     m_sLoadoutResource "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F890C13043B9}" {
+     m_sLoadoutName "Heli Pilot"
+     m_sLoadoutResource "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{6986F890DF7CCA5B}" {
+     m_sLoadoutName "Heli Crew"
+     m_sLoadoutResource "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew.et"
+     m_sAffiliatedFaction "USSR"
+    }
+   }
+  }
+ }
+}

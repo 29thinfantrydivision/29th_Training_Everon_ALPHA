@@ -1,0 +1,270 @@
+GenericEntity Parade_Deck_Loc : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 5226.113 1.257 12215.953
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   Parade_Deck_Spawn {
+    coords -22 -0.672 -14.107
+    angles 0 114.158 0
+    {
+     SCR_SpawnPoint US_Parade_Spawn : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+      coords 0.03 1.354 -2.838
+      angles 0 -14.657 0
+      m_fRandomSpawnRadius 1
+     }
+    }
+   }
+   Parade_Deck_Objects {
+    coords 20.947 0 -18.526
+    angles 0 10.047 0
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+      Parade_Deck_Floor {
+       coords 0 1 0
+       {
+        $grp StaticModelEntity : "{A027B45306A1E311}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Wide_8m.et" {
+         {
+          coords -26.178 -0.281 -4.543
+         }
+         {
+          coords -26.276 -0.281 -0.877
+         }
+         {
+          coords -18.145 -0.281 -0.889
+         }
+         {
+          coords -18.047 -0.281 -4.555
+         }
+         {
+          coords -1.879 -0.281 -4.601
+         }
+         {
+          coords -10.011 -0.281 -4.589
+         }
+         {
+          coords -10.108 -0.281 -0.923
+         }
+         {
+          coords -1.977 -0.281 -0.935
+         }
+         {
+          coords -1.938 -0.281 -8.173
+         }
+         {
+          coords -26.139 -0.281 -11.781
+         }
+         {
+          coords -26.236 -0.281 -8.115
+         }
+         {
+          coords -18.106 -0.281 -8.127
+         }
+         {
+          coords -18.007 -0.281 -11.793
+         }
+         {
+          coords -1.84 -0.281 -11.839
+         }
+         {
+          coords -9.972 -0.281 -11.827
+         }
+         {
+          coords -10.069 -0.281 -8.161
+         }
+         {
+          coords -2.132 -0.281 6.347
+         }
+         {
+          coords -26.332 -0.281 2.738
+         }
+         {
+          coords -26.429 -0.281 6.404
+         }
+         {
+          coords -18.3 -0.281 6.393
+         }
+         {
+          coords -18.2 -0.281 2.727
+         }
+         {
+          coords -2.033 -0.281 2.681
+         }
+         {
+          coords -10.165 -0.281 2.693
+         }
+         {
+          coords -10.262 -0.281 6.358
+         }
+         {
+          coords -1.929 -0.281 13.439
+         }
+         {
+          coords -10.06 -0.281 13.451
+         }
+         {
+          coords -9.963 -0.281 9.786
+         }
+         {
+          coords -1.831 -0.281 9.773
+         }
+         {
+          coords -17.998 -0.281 9.819
+         }
+         {
+          coords -18.098 -0.281 13.485
+         }
+         {
+          coords -26.227 -0.281 13.498
+         }
+         {
+          coords -26.13 -0.281 9.831
+         }
+         {
+          coords -26.196 -0.281 -19.117
+         }
+         {
+          coords -1.995 -0.281 -15.509
+         }
+         {
+          coords -10.126 -0.281 -15.497
+         }
+         {
+          coords -10.029 -0.281 -19.162
+         }
+         {
+          coords -1.897 -0.281 -19.175
+         }
+         {
+          coords -18.064 -0.281 -19.129
+         }
+         {
+          coords -18.164 -0.281 -15.463
+         }
+         {
+          coords -26.293 -0.281 -15.45
+         }
+        }
+        $grp StaticModelEntity : "{D7462F99BC0CDAE8}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04.et" {
+         {
+          coords -26.294 -0.136 -4.02
+          angles -0.218 -89.709 -0.01
+         }
+         {
+          coords -26.269 -0.124 -1.594
+          angles -0.218 -89.709 -0.01
+         }
+        }
+       }
+      }
+      Parade_Spawn_Area {
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{1BBC135B17B2FEB3}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_US_ammo.et" {
+         {
+          coords -32.39 0.701 -13.106
+          angles 0 -1.373 0
+         }
+         {
+          coords -33.477 -0.152 7.445
+          angles 0 0.248 0
+         }
+        }
+        $grp GenericEntity : "{526D39BE96FE8A08}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_grey.et" {
+         {
+          coords -35.672 0.716 -13.202
+          angles 0 -1.373 0
+         }
+         {
+          coords -36.712 -0.06 7.514
+          angles 0 0.248 0
+         }
+        }
+        GenericEntity : "{52C9340EB367D20D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_CommandPost_US_01.et" {
+         coords -53.348 0.39 -2.44
+         angles 0 92.407 0
+        }
+        $grp GenericEntity : "{7E3F6F5A6BAEC717}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_olive.et" {
+         {
+          coords -38.875 0.712 -13.274
+          angles 0 -1.373 0
+         }
+         {
+          coords -39.865 -0.042 7.521
+          angles 0 0.248 0
+         }
+        }
+        $grp GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_red.et" {
+         {
+          coords -42.758 0.946 -13.54
+          angles -2.683 -1.373 1.789
+         }
+         {
+          coords -43.723 -0.047 7.551
+          angles 1.349 0.374 1.787
+         }
+        }
+        GenericEntity : "{EFFA90623A05EB25}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_US.et" {
+         coords -49.066 0.358 2.146
+         angles 0 -10.047 0
+        }
+        $grp StaticModelEntity : "{F2415A706EED436C}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Narrow_4m_B.et" {
+         {
+          coords -46.327 0.195 -2.366
+          angles 0 1.618 0
+         }
+         {
+          coords -42.464 0.446 -2.487
+          angles 0 1.618 0
+         }
+         {
+          coords -38.459 0.206 -2.582
+          angles 0 1.618 0
+         }
+         {
+          coords -34.596 -0.142 -2.704
+          angles 0 1.618 0
+         }
+        }
+        GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_03/E_LampStreet_E_03_single.et" {
+         coords -50.954 -0.213 -10.446
+         angles 0 59.144 0
+        }
+       }
+      }
+      Parade_Deck_Misc {
+       coords 0 0 0
+       {
+        $grp GameEntity : "{0E94F28FD722B1D8}Prefabs/Props/Military/Generators/GeneratorFloodlight_US_01.et" {
+         {
+          coords 1.287 0.845 -16.659
+          angles 0 -42.405 0
+         }
+         {
+          coords 1.414 0.845 11.281
+          angles 0 -136.484 0
+         }
+         {
+          coords -24.101 0.847 11.316
+          angles 0 128.267 0
+         }
+         {
+          coords -24.579 0.83 -16.622
+          angles 0 34.188 0
+         }
+        }
+        GenericEntity : "{479481B171F52B35}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_01/E_LampStreet_E_01_6m.et" {
+         coords 3.412 1.08 -1.004
+         angles 0 -1.954 0
+        }
+        GenericEntity : "{A46F8469F129E154}Prefabs/Props/Military/CargoContainers/CargoContainer_01_military_base.et" {
+         coords 3.298 0.869 -2.752
+         angles 0 0.527 0
+         scale 0.5
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
