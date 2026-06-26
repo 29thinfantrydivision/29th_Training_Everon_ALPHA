@@ -264,12 +264,12 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_bIsPrivacyChangeable 0
        m_sGroupRoleName "RIFLE SQUAD"
        m_aLoadoutResources {
-        "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et"
-        "{EA158B6EB6A24B4B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1.et"
-        "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
-        "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
-        "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et"
-        "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO.et"
+        "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/29th_US_Parade/Character_29th_Parade_Loadout.et"
+        "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Rifleman.et"
+        "{A3D3409FAC20E70E}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Grenadier.et"
+        "{13C4262D91D902C7}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_CE.et"
+        "{9583AA96ECF56F04}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_MG.et"
+        "{790CE09CEC4DC9C4}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Leadership.et"
        }
       }
       SCR_GroupRolePresetConfig "{6986F8E3585D5D93}" {
@@ -278,11 +278,9 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_sGroupDescription "HEADQUARTERS"
        m_bIsPrivacyChangeable 0
        m_aLoadoutResources {
-        "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et"
-        "{E94CD0D20A63909E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO.et"
-        "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et"
-        "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
-        "{4FBA24F7BB43E17D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant.et"
+        "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/29th_US_Parade/Character_29th_Parade_Loadout.et"
+        "{790CE09CEC4DC9C4}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Leadership.et"
+        "{43CA00511F46E74E}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Sniper.et"
        }
       }
       SCR_GroupRolePresetConfig "{6986F8E024523B97}" {
@@ -292,8 +290,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_iGroupSize 3
        m_bIsPrivacyChangeable 0
        m_aLoadoutResources {
-        "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
-        "{F35F145D4A3F75EF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CC.et"
+        "{C9377002549DCD85}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Crewman.et"
        }
       }
       SCR_GroupRolePresetConfig "{6986F8E1FFAED6C3}" {
@@ -322,9 +319,9 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_bIsPrivacyChangeable 0
       }
       SCR_GroupPreset "{6986F8E6161992BA}" {
-       m_sGroupName "TANK CERW"
+       m_sGroupName "TANK CREW"
        m_eGroupRole MECHANIZED
-       m_sGroupDescription "TANK CERW"
+       m_sGroupDescription "TANK CREW"
       }
       SCR_GroupPreset "{6986F8E7E2BC60B9}" {
        m_sGroupName "HELI CREW"
@@ -333,6 +330,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_iGroupSize 3
       }
      }
+     m_bCreateOnlyPredefinedGroups 1
     }
     SCR_Faction "{56DEAC40D3C2E623}" {
      m_aGroupRolePresetConfigs {
@@ -342,11 +340,11 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_sGroupDescription "RIFLE SQUAD"
        m_bIsPrivacyChangeable 0
        m_aLoadoutResources {
-        "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
-        "{BF643BE4ADBDFDD3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_LAT.et"
-        "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et"
-        "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et"
-        "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO.et"
+        "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_Rifleman.et"
+        "{9833B84F57F9F22F}Prefabs/Characters/Factions/OPFOR/29th_USSR/29TH_Character_USSR_LAT.et"
+        "{6B00D3FC285E0AE0}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_GL.et"
+        "{8A60AEBD529FEB8B}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_MG.et"
+        "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_SL_KLMK.et"
        }
       }
       SCR_GroupRolePresetConfig "{6986F89280EC1EF6}" {
@@ -356,10 +354,8 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_iGroupSize 5
        m_bIsPrivacyChangeable 0
        m_aLoadoutResources {
-        "{0DC67B4DFFD7A361}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout_RTO.et"
-        "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.et"
-        "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter.et"
-        "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et"
+        "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_SL_KLMK.et"
+        "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/29th_USSR/29TH_Character_USSR_Sharpshooter.et"
        }
       }
       SCR_GroupRolePresetConfig "{6986F8922297262D}" {
@@ -368,8 +364,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_sGroupDescription "TANK CREW"
        m_iGroupSize 3
        m_aLoadoutResources {
-        "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
-        "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+        "{8A88472E69F0E77F}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_Crew.et"
        }
       }
       SCR_GroupRolePresetConfig "{6986F89217879882}" {
@@ -412,6 +407,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
        m_bIsPrivacyChangeable 0
       }
      }
+     m_bCreateOnlyPredefinedGroups 1
     }
     SCR_Faction "{56DEAC40D132400B}" {
      m_aGroupRolePresetConfigs {
@@ -626,7 +622,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
    m_aPlayerLoadouts {
     SCR_FactionPlayerLoadout "{5596D845DBEEF78C}" {
      m_sLoadoutName "29th Parade Uniform"
-     m_sLoadoutResource "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_BaseLoadout.et"
+     m_sLoadoutResource "{894628A45793E7A0}Prefabs/Characters/Factions/BLUFOR/29th_US_Parade/Character_29th_Parade_Loadout.et"
     }
     SCR_FactionPlayerLoadout "{698C2EB0F999CA17}" {
      m_sLoadoutName "Rifleman"
@@ -680,57 +676,37 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
     }
     SCR_FactionPlayerLoadout "{6986F8FE2C4C5338}" {
      m_sLoadoutName "Rifleman"
-     m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
-     m_sAffiliatedFaction "US"
-    }
-    SCR_FactionPlayerLoadout "{6986F8FE31257AD9}" {
-     m_sLoadoutName "Riflemanv1"
-     m_sLoadoutResource "{EA158B6EB6A24B4B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Variant_1.et"
+     m_sLoadoutResource "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Rifleman.et"
      m_sAffiliatedFaction "US"
     }
     SCR_FactionPlayerLoadout "{6986F8FFC353789C}" {
-     m_sLoadoutName "Squad Leadership"
-     m_sLoadoutResource "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO.et"
-     m_sAffiliatedFaction "US"
-    }
-    SCR_FactionPlayerLoadout "{6986F8EABAFA4339}" {
-     m_sLoadoutName "Platoon Leader"
-     m_sLoadoutResource "{E94CD0D20A63909E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO.et"
+     m_sLoadoutName "Leadership"
+     m_sLoadoutResource "{790CE09CEC4DC9C4}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Leadership.et"
      m_sAffiliatedFaction "US"
     }
     SCR_FactionPlayerLoadout "{6986F8E7B965AB63}" {
      m_sLoadoutName "Grenadier"
-     m_sLoadoutResource "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+     m_sLoadoutResource "{A3D3409FAC20E70E}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Grenadier.et"
      m_sAffiliatedFaction "US"
     }
     SCR_FactionPlayerLoadout "{6986F8E77C0C51DD}" {
      m_sLoadoutName "Combat Engineer"
-     m_sLoadoutResource "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     m_sLoadoutResource "{13C4262D91D902C7}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_CE.et"
      m_sAffiliatedFaction "US"
     }
     SCR_FactionPlayerLoadout "{6986F8EA86CE0613}" {
      m_sLoadoutName "Machine Gunner"
-     m_sLoadoutResource "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et"
-     m_sAffiliatedFaction "US"
-    }
-    SCR_FactionPlayerLoadout "{6986F8E742D3FC28}" {
-     m_sLoadoutName "Medic"
-     m_sLoadoutResource "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+     m_sLoadoutResource "{9583AA96ECF56F04}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_MG.et"
      m_sAffiliatedFaction "US"
     }
     SCR_FactionPlayerLoadout "{6986F8E7531143C9}" {
      m_sLoadoutName "Sniper"
-     m_sLoadoutResource "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et"
+     m_sLoadoutResource "{43CA00511F46E74E}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Sniper.et"
      m_sAffiliatedFaction "US"
     }
     SCR_FactionPlayerLoadout "{6986F8E73853E70A}" {
      m_sLoadoutName "Tanker"
-     m_sLoadoutResource "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
-     m_sAffiliatedFaction "US"
-    }
-    SCR_FactionPlayerLoadout "{6986F8E70DD8B1E8}" {
-     m_sLoadoutName "Tankerv1"
-     m_sLoadoutResource "{F35F145D4A3F75EF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CC.et"
+     m_sLoadoutResource "{C9377002549DCD85}Prefabs/Characters/Factions/BLUFOR/29th_US/29th_Character_US_Crewman.et"
      m_sAffiliatedFaction "US"
     }
     SCR_FactionPlayerLoadout "{6986F8E4EEEF6869}" {
@@ -743,64 +719,39 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
      m_sLoadoutResource "{15CD521098748195}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew.et"
      m_sAffiliatedFaction "US"
     }
-    SCR_FactionPlayerLoadout "{6986F8EB174BEF5F}" {
-     m_sLoadoutName "Plt. Sergeant"
-     m_sLoadoutResource "{4FBA24F7BB43E17D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant.et"
-     m_sAffiliatedFaction "US"
-    }
     SCR_FactionPlayerLoadout "{6986F89378199ECB}" {
      m_sLoadoutName "Rifleman"
-     m_sLoadoutResource "{069118B2D809C9E1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Variant_1.et"
+     m_sLoadoutResource "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_Rifleman.et"
      m_sAffiliatedFaction "USSR"
     }
     SCR_FactionPlayerLoadout "{6986F8934EA9B0DE}" {
-     m_sLoadoutName "Plt. Leader"
-     m_sLoadoutResource "{0DC67B4DFFD7A361}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout_RTO.et"
-     m_sAffiliatedFaction "USSR"
-    }
-    SCR_FactionPlayerLoadout "{6986F8935CDC129A}" {
-     m_sLoadoutName "Plt. Sergeant"
-     m_sLoadoutResource "{928DC9882A0AC79D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sergeant.et"
+     m_sLoadoutName "Leadership"
+     m_sLoadoutResource "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_SL_KLMK.et"
      m_sAffiliatedFaction "USSR"
     }
     SCR_FactionPlayerLoadout "{6986F89326304E30}" {
      m_sLoadoutName "Grenadier"
-     m_sLoadoutResource "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et"
+     m_sLoadoutResource "{6B00D3FC285E0AE0}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_GL.et"
      m_sAffiliatedFaction "USSR"
     }
     SCR_FactionPlayerLoadout "{6986F893334ABE7F}" {
      m_sLoadoutName "Combat Engineer"
-     m_sLoadoutResource "{BF643BE4ADBDFDD3}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_LAT.et"
+     m_sLoadoutResource "{9833B84F57F9F22F}Prefabs/Characters/Factions/OPFOR/29th_USSR/29TH_Character_USSR_LAT.et"
      m_sAffiliatedFaction "USSR"
     }
     SCR_FactionPlayerLoadout "{6986F8930F13FF9C}" {
      m_sLoadoutName "Machine Gunner"
-     m_sLoadoutResource "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et"
-     m_sAffiliatedFaction "USSR"
-    }
-    SCR_FactionPlayerLoadout "{6986F89312ABFC83}" {
-     m_sLoadoutName "Medic"
-     m_sLoadoutResource "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et"
+     m_sLoadoutResource "{8A60AEBD529FEB8B}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_MG.et"
      m_sAffiliatedFaction "USSR"
     }
     SCR_FactionPlayerLoadout "{6986F890EA5E2F6F}" {
      m_sLoadoutName "Sniper"
-     m_sLoadoutResource "{976AC400219898FA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter.et"
-     m_sAffiliatedFaction "USSR"
-    }
-    SCR_FactionPlayerLoadout "{6986F890E4647B1A}" {
-     m_sLoadoutName "Squad Leader"
-     m_sLoadoutResource "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO.et"
+     m_sLoadoutResource "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/29th_USSR/29TH_Character_USSR_Sharpshooter.et"
      m_sAffiliatedFaction "USSR"
     }
     SCR_FactionPlayerLoadout "{6986F890F0CCB6F8}" {
      m_sLoadoutName "Tanker"
-     m_sLoadoutResource "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
-     m_sAffiliatedFaction "USSR"
-    }
-    SCR_FactionPlayerLoadout "{6986F890C995D697}" {
-     m_sLoadoutName "Tankerv1"
-     m_sLoadoutResource "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
+     m_sLoadoutResource "{8A88472E69F0E77F}Prefabs/Characters/Factions/OPFOR/29th_USSR/29th_Character_USSR_Crew.et"
      m_sAffiliatedFaction "USSR"
     }
     SCR_FactionPlayerLoadout "{6986F890C13043B9}" {
@@ -812,136 +763,6 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
      m_sLoadoutName "Heli Crew"
      m_sLoadoutResource "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew.et"
      m_sAffiliatedFaction "USSR"
-    }
-    SCR_FactionPlayerLoadout "{698C2EB4E351D5E3}" {
-     m_sLoadoutName "Rifleman"
-     m_sLoadoutResource "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EB463A0E35B}" {
-     m_sLoadoutName "Squad Leader"
-     m_sLoadoutResource "{0328B8559CC32B25}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_RTO_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EB47FD0CE03}" {
-     m_sLoadoutName "Platoon Leader"
-     m_sLoadoutResource "{6A556A340D5AF1E5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Scout_RTO_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EB449C12BF2}" {
-     m_sLoadoutName "Plt. Sgt."
-     m_sLoadoutResource "{57C08C28ABA76E5F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sergeant_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBBBA0D0C09}" {
-     m_sLoadoutName "Combat Engineer"
-     m_sLoadoutResource "{6454E9AA5DD32684}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_LAT_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB88A1D771}" {
-     m_sLoadoutName "Grenadier"
-     m_sLoadoutResource "{4E9A85D18031A71C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_GL_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB8773A6C0}" {
-     m_sLoadoutName "Machine Gunner"
-     m_sLoadoutResource "{EF321A0DD2B830D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_MG_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB94F5717A}" {
-     m_sLoadoutName "Medic"
-     m_sLoadoutResource "{21062E10C939E5E6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Medic_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB666D6FE4}" {
-     m_sLoadoutName "Sniper"
-     m_sLoadoutResource "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB7541CAAD}" {
-     m_sLoadoutName "Tanker"
-     m_sLoadoutResource "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB59E9A5C7}" {
-     m_sLoadoutName "Tankerv1"
-     m_sLoadoutResource "{2E0D284F521C5696}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_CC.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB5204F12A}" {
-     m_sLoadoutName "Heli Pilot"
-     m_sLoadoutResource "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C2EBB2FC5A2D8}" {
-     m_sLoadoutName "Heli Crew"
-     m_sLoadoutResource "{411DE243F376E485}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliCrew.et"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-    SCR_FactionPlayerLoadout "{698C43450C18F9AD}" {
-     m_sLoadoutName "Rifleman"
-     m_sLoadoutResource "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C4346868C265D}" {
-     m_sLoadoutName "Squad Leader"
-     m_sLoadoutResource "{3BC0B233C4B8C78E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_RTO_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C4346900D8376}" {
-     m_sLoadoutName "Platoon Leader"
-     m_sLoadoutResource "{C5311933AC48383B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Scout_RTO_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C434697A77CBA}" {
-     m_sLoadoutName "Plt. Sgt."
-     m_sLoadoutResource "{5850B1728AE5E857}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Sergeant_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C43466107A651}" {
-     m_sLoadoutName "Grenadier"
-     m_sLoadoutResource "{FBD08843D6ECEE72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_GL_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C43467BBFCC2F}" {
-     m_sLoadoutName "Combat Engineer"
-     m_sLoadoutResource "{DFF4E8E8C95E071E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_LAT_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C43464805B9E0}" {
-     m_sLoadoutName "Machine Gunner"
-     m_sLoadoutResource "{FD7312CB51653D61}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_MG_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C43465F076345}" {
-     m_sLoadoutName "Medic"
-     m_sLoadoutResource "{40E763EC857ABAEB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Medic_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C434655BD4349}" {
-     m_sLoadoutName "Sniper"
-     m_sLoadoutResource "{19678B9267B3574A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C4346277E2AF6}" {
-     m_sLoadoutName "Tank Commander"
-     m_sLoadoutResource "{D281BE0B38491426}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_CrewLdr_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C434637B7BC97}" {
-     m_sLoadoutName "Tank Crew"
-     m_sLoadoutResource "{DC55E8CCA833D117}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Crew_Random.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C43460FF88775}" {
-     m_sLoadoutName "Heli Crew"
-     m_sLoadoutResource "{15CD521098748196}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew.et"
-     m_sAffiliatedFaction "RHS_USAF"
-    }
-    SCR_FactionPlayerLoadout "{698C43461A7CCA3D}" {
-     m_sLoadoutName "Heli Pilot"
-     m_sLoadoutResource "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot.et"
-     m_sAffiliatedFaction "RHS_USAF"
     }
    }
   }
