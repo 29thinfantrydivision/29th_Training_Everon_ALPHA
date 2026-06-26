@@ -614,6 +614,9 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
      SCR_RankInfoCampaign "{68DA9114C2FF6FEB}" {
       m_iRequiredXP 0
      }
+     SCR_RankInfoCampaign "{68DA9114C40F59E7}" {
+      m_iRank GENERAL
+     }
     }
    }
   }
